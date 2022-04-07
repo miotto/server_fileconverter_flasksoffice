@@ -19,9 +19,9 @@ def upload_file():
     try:
         result = convert_to(os.path.join(config['uploads_dir'], 'pdf'), source, timeout=15)
     except LibreOfficeError:
-        raise InternalServerErrorError({'message': 'Error when converting file to PDF'})
+        return jsonify({'result': {'source': uploads_url(source), 'doc-conv-failed': 'LibreOfficeError'}})
     except TimeoutExpired:
-        raise InternalServerErrorError({'message': 'Timeout when converting file to PDF'})
+        return jsonify({'result': {'source': uploads_url(source), 'doc-conv-failed': 'TimeoutExpired'}})
 
     return jsonify({'result': {'source': uploads_url(source), 'pdf': uploads_url(result)}})
 

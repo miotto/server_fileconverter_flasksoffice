@@ -6,7 +6,7 @@ import os
 import signal
 
 def convert_to(folder, source, timeout=None):
-    args = [libreoffice_exec(), '--headless', '--convert-to', 'pdf', '--outdir', folder, source]
+    args = [libreoffice_exec(), '--headless', '--writer', '--convert-to', 'pdf', '--outdir', folder, source]
 
     try:
         process = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, start_new_session=True)

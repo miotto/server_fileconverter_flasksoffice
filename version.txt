@@ -7,4 +7,4 @@
 # @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 ##
 
-version = 2022032800;
+version = 2023062000;

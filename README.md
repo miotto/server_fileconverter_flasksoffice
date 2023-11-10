@@ -96,7 +96,7 @@ Output
 ```
 {"result":{"pdf":"/upload/pdf/sample1.pdf","source":"/upload/source/sample1.docx"}}
 ```
-If everything is ok, the result file ist in the folder `~/myproject/tmp/pdf`.
+If everything is ok, the result file is in folder `~/myproject/tmp/pdf`.
 
 To test from another server, the IP address of the server must be set in the `flaskconvert.py` file.
 

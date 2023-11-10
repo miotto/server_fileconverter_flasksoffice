@@ -7,7 +7,7 @@ Most of the source code for the Flask application is taken from the website [Con
 # Prerequisites
 Before starting this guide, you should have:
 
-* A server with Ubuntu 20.04 installed.
+* A server with Ubuntu 22.04 installed.
 * Nginx installed.
 
 ## 0. Add a new user

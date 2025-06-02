@@ -2,7 +2,7 @@
 
 This is a description of the installation of a Flask LibreOffice rest server, which allows Moodle to use a separate server for document conversion.
 
-Most of the source code for the Flask application is taken from the website [Converting DOCX to PDF using Python](hhttps://michalzalecki.com/converting-docx-to-pdf-using-python/)
+Most of the source code for the Flask application is taken from the website [Converting DOCX to PDF using Python](https://michalzalecki.com/converting-docx-to-pdf-using-python/)
 
 # Prerequisites
 Before starting this guide, you should have:
